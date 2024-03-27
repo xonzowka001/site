@@ -1,0 +1,101 @@
+.main__работы {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1239px;
+
+ 
+  
+}
+.main__content{
+  max-width: 800px;
+text-align: center;
+}
+
+.section__box {
+ 
+ max-width: 393px;
+ margin-bottom: 24px; 
+
+}
+.main__cтaнки{
+ max-width: 393px;
+}
+
+.list2{
+  color: rgb(54, 55, 56);
+font-family: Exo 2;
+font-size: 48px;
+  margin-bottom: 32px;
+}
+.texst2{
+  color: rgb(107, 107, 108);
+  font-family: PT Sans;
+  font-size: 16px;
+  margin-bottom: 56px;
+}
+
+.list1 {
+  color: rgb(54, 55, 56);
+  font-family: Exo 2;
+  font-size: 20px;
+margin-bottom: 16px;
+}
+
+.main__texst {
+  color: rgb(107, 107, 108);
+font-family: PT Sans;
+font-size: 16px;
+margin-bottom: 7px;
+}
+.box2{
+  color: rgb(54, 55, 56);
+font-family: Exo 2;
+font-size: 16px;
+}
+
+
+
+
+@media screen and (max-width:1201px){
+  .main__cтaнки{
+    max-width: 370px;
+  }
+}
+@media screen and (max-width:1131px){
+  .main__cтaнки{
+    max-width: 350px;
+  }
+}
+@media screen and (max-width:1073px){
+  .main__cтaнки{
+    max-width: 330px;
+  }
+}
+@media screen and (max-width:1014px) {
+  .main__cтaнки{
+    max-width: 310px;
+  }
+}
+@media screen and (max-width:950px) {
+  .main__cтaнки{
+    max-width: 290px;
+  }
+}
+@media screen and (max-width:889px) {
+.main__cтaнки{
+  max-width: 270px;
+}
+}
+@media screen and (max-width:826px) {
+  .main__работы{
+    flex-direction: column;
+    align-items: center;
+  }
+  .list2{
+    font-size: 44px;
+  }
+  .texst2{
+    font-size: 16px;
+  }
+}
