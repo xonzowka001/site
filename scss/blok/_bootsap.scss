@@ -1,4 +1,4 @@
-.main__работы {
+.main__work {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -7,10 +7,7 @@
  
   
 }
-.main__content{
-  max-width: 800px;
-text-align: center;
-}
+
 
 .section__box {
  
@@ -52,6 +49,7 @@ margin-bottom: 7px;
   color: rgb(54, 55, 56);
 font-family: Exo 2;
 font-size: 16px;
+margin-bottom: 20px;
 }
 
 
@@ -88,9 +86,13 @@ font-size: 16px;
 }
 }
 @media screen and (max-width:826px) {
-  .main__работы{
+  .main__work{
     flex-direction: column;
     align-items: center;
+  }
+  .main__content{
+    max-width: 800px;
+  text-align: center;
   }
   .list2{
     font-size: 44px;
@@ -99,3 +101,4 @@ font-size: 16px;
     font-size: 16px;
   }
 }
+

@@ -132,16 +132,11 @@ a {
     flex-direction: column;
   }
 }
-.main__работы {
+.main__work {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1239px;
-}
-
-.main__content {
-  max-width: 800px;
-  text-align: center;
 }
 
 .section__box {
@@ -185,6 +180,7 @@ a {
   color: rgb(54, 55, 56);
   font-family: Exo 2;
   font-size: 16px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1201px) {
@@ -218,14 +214,99 @@ a {
   }
 }
 @media screen and (max-width: 826px) {
-  .main__работы {
+  .main__work {
     flex-direction: column;
     align-items: center;
+  }
+  .main__content {
+    max-width: 800px;
+    text-align: center;
   }
   .list2 {
     font-size: 44px;
   }
   .texst2 {
     font-size: 16px;
+  }
+}
+.content {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.content__img {
+  max-width: 500px;
+  margin-bottom: 25px;
+}
+
+.content__item {
+  max-width: 350px;
+}
+
+.content__title {
+  color: rgb(54, 55, 56);
+  font-family: Exo 2;
+  font-size: 20px;
+  margin-bottom: 28px;
+}
+
+.content__item {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 850px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+  background: rgb(255, 255, 255);
+  margin-bottom: 15px;
+}
+
+.content__texst {
+  color: rgb(107, 107, 108);
+  font-family: PT Sans;
+  font-size: 16px;
+}
+
+.content__box {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 630px) {
+  .content__item {
+    max-width: 500px;
+  }
+  .content__img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 547px) {
+  .content__item {
+    max-width: 485px;
+  }
+}
+@media screen and (max-width: 505px) {
+  .content__item {
+    max-width: 460px;
+  }
+  .content {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .content__item {
+    flex-direction: column;
+    max-width: 300px;
+  }
+  .content__title {
+    font-size: 18px;
+  }
+  .content__texst {
+    font-size: 15px;
+  }
+  .content__list {
+    max-width: 300px;
+    display: none;
   }
 }/*# sourceMappingURL=main.css.map */
